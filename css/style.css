@@ -1,3 +1,29 @@
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px black;
+}
+
+.section1 {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.section2 {
+  justify-content: space-evenly;
+  background-color: blue;
+}
+
+.section3 {
+  justify-content: space-between;
+}
+
 body {
   height: 100%;
   margin: 0;
@@ -25,32 +51,6 @@ hr.vert {
   width: 5rem;
   margin: auto 0;
   transform: rotate(90deg);
-}
-
-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-content: center;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  border: solid 1px black;
-}
-
-.section1 {
-  position: relative;
-  display: block;
-  overflow: hidden;
-}
-
-.section2 {
-  justify-content: space-evenly;
-  background-color: blue;
-}
-
-.section3 {
-  justify-content: space-between;
 }
 
 .leftColumn {
