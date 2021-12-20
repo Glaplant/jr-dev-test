@@ -6,7 +6,8 @@ section {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  border: solid 1px black;
+  border: solid 2px darkgray;
+  background-color: darkgray;
 }
 
 .section1 {
@@ -17,7 +18,6 @@ section {
 
 .section2 {
   justify-content: space-evenly;
-  background-color: blue;
 }
 
 .section3 {
@@ -167,4 +167,9 @@ div.right {
 .right a {
   width: 40%;
   margin: 0 1rem;
+}
+
+.leftColumn, .rightColumn, .right, .left {
+  border: solid 2px lightgray;
+  background-color: lightgray;
 }
